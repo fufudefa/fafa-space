@@ -1,4 +1,4 @@
-baseURL = "https://你的github用户名.github.io/"
+baseURL = "/"
 title = "fa" # 左上角的标题名字
 theme = "PaperMod"
 
