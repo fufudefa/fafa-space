@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://fafa-space-wi7c.vercel.app/"
 title = "fa" # 左上角的标题名字
 theme = "PaperMod"
 
