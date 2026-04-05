@@ -1,28 +1,13 @@
 baseURL = "https://fafa-space-wi7c.vercel.app/"
-title = "fa" # 左上角的标题名字
+title = "fa"
 theme = "PaperMod"
 
-# 这里是开启秒搜功能的关键
+# 开启秒搜功能
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 
-[params]
-env = "production"
-defaultTheme = "light" # 强制锁定浅色模式，让莫兰迪色完美呈现
-ShowToc = true
-ShowShareButtons = false
-
-  # 首页的个人介绍文案，可以随便改
-  [params.homeInfoParams]
-  Title = "Hi, is fa"
-  Content = "把无法说的话都倒在这里🧊"
-
-  [menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "关于我"
-    url = "/about/"
-    weight = 40
+# 导航菜单 (放在中间，确保它是顶级目录)
+[menu]
   [[menu.main]]
     identifier = "home"
     name = "首页📃"
@@ -38,3 +23,19 @@ ShowShareButtons = false
     name = "标签 🏷️"
     url = "/tags/"
     weight = 30
+  [[menu.main]]
+    identifier = "about"
+    name = "关于我"
+    url = "/about/"
+    weight = 40
+
+# 细节配置
+[params]
+env = "production"
+defaultTheme = "light"
+ShowToc = true
+ShowShareButtons = false
+
+  [params.homeInfoParams]
+  Title = "Hi, is fa"
+  Content = "把无法说的话都倒在这里🧊"
