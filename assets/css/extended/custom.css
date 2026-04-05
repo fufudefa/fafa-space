@@ -1,0 +1,9 @@
+:root {
+    --theme: #F4F1ED; /* 温柔的燕麦底色 */
+    --entry: #F4F1ED; /* 文章列表卡片底色 */
+    --primary: #6B7A8F; /* 灰蓝色标题，不刺眼 */
+    --secondary: #A0A5A9; /* 辅助文字颜色 */
+    --tertiary: #E8E5E1; /* 柔和的边框色 */
+    --content: #4A4A4A; /* 舒适的阅读正文颜色 */
+    --border: #E8E5E1;
+}
